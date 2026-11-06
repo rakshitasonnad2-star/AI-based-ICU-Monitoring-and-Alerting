@@ -1,0 +1,212 @@
+{
+  "patients": [
+    {
+      "id": "pat_c265e577-7159-422d-a29c-c6e72974189e",
+      "name": "James Mitchell",
+      "age": 67,
+      "gender": "Male",
+      "bedNumber": 1,
+      "bloodGroup": "O+",
+      "diagnosis": "Acute Myocardial Infarction",
+      "attendingDoctor": "Dr. Sarah Chen",
+      "status": "Critical",
+      "currentVitals": {
+        "heartRate": 112,
+        "oxygenLevel": 91,
+        "systolicBP": 155,
+        "diastolicBP": 95,
+        "temperature": 101.2,
+        "respiratoryRate": 22,
+        "lastUpdated": "2026-10-30T07:17:24.482Z"
+      },
+      "emergencyContact": {
+        "name": "Mary Mitchell",
+        "phone": "555-0101",
+        "relation": "Spouse"
+      },
+      "allergies": [
+        "Penicillin"
+      ],
+      "medications": [
+        {
+          "name": "Aspirin",
+          "dosage": "325mg",
+          "frequency": "Once daily"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Admitted via emergency. Cardiology consult requested.",
+          "author": "Dr. Sarah Chen",
+          "timestamp": "2026-10-30T07:17:24.482Z"
+        }
+      ],
+      "admissionDate": "2026-10-30T07:17:24.482Z",
+      "dischargeDate": null,
+      "aiStatus": {
+        "riskLevel": "Medium",
+        "stabilityScore": 67,
+        "prediction": "MODERATE RISK: Some parameters outside normal range. Nurse assessment recommended.",
+        "alerts": [
+          {
+            "message": "Slightly elevated heart rate: 112 bpm",
+            "severity": "Medium"
+          },
+          {
+            "message": "Low O2 saturation: 91%",
+            "severity": "High"
+          }
+        ],
+        "lastAnalysis": "2026-10-30T07:17:24.482Z"
+      },
+      "vitalHistory": [
+        {
+          "heartRate": 112,
+          "oxygenLevel": 91,
+          "systolicBP": 155,
+          "diastolicBP": 95,
+          "temperature": 101.2,
+          "respiratoryRate": 22,
+          "timestamp": "2026-10-30T07:17:24.482Z"
+        }
+      ],
+      "createdAt": "2026-10-30T07:17:24.482Z",
+      "updatedAt": "2026-10-30T07:17:24.482Z"
+    },
+    {
+      "id": "pat_c8023a78-e814-4512-8e25-1e179b10be30",
+      "name": "Elena Vasquez",
+      "age": 45,
+      "gender": "Female",
+      "bedNumber": 2,
+      "bloodGroup": "A+",
+      "diagnosis": "Respiratory Failure",
+      "attendingDoctor": "Dr. James Park",
+      "status": "Serious",
+      "currentVitals": {
+        "heartRate": 88,
+        "oxygenLevel": 94,
+        "systolicBP": 128,
+        "diastolicBP": 82,
+        "temperature": 99.8,
+        "respiratoryRate": 24,
+        "lastUpdated": "2026-10-30T07:17:24.484Z"
+      },
+      "emergencyContact": {
+        "name": "Carlos Vasquez",
+        "phone": "555-0102",
+        "relation": "Husband"
+      },
+      "allergies": [
+        "Sulfa"
+      ],
+      "medications": [
+        {
+          "name": "Albuterol",
+          "dosage": "2.5mg",
+          "frequency": "Every 4 hours"
+        }
+      ],
+      "notes": [
+        {
+          "text": "On supplemental oxygen. Respiratory therapy ongoing.",
+          "author": "Dr. James Park",
+          "timestamp": "2026-10-30T07:17:24.482Z"
+        }
+      ],
+      "admissionDate": "2026-10-30T07:17:24.484Z",
+      "dischargeDate": null,
+      "aiStatus": {
+        "riskLevel": "Low",
+        "stabilityScore": 88,
+        "prediction": "Patient vitals within acceptable range. Standard monitoring protocol active.",
+        "alerts": [
+          {
+            "message": "Below normal O2: 94%",
+            "severity": "Medium"
+          }
+        ],
+        "lastAnalysis": "2026-10-30T07:17:24.484Z"
+      },
+      "vitalHistory": [
+        {
+          "heartRate": 88,
+          "oxygenLevel": 94,
+          "systolicBP": 128,
+          "diastolicBP": 82,
+          "temperature": 99.8,
+          "respiratoryRate": 24,
+          "timestamp": "2026-10-30T07:17:24.484Z"
+        }
+      ],
+      "createdAt": "2026-10-30T07:17:24.484Z",
+      "updatedAt": "2026-10-30T07:17:24.484Z"
+    },
+    {
+      "id": "pat_eba15d31-5a85-4a6c-8cc0-9bb4cf314f30",
+      "name": "Robert Chang",
+      "age": 72,
+      "gender": "Male",
+      "bedNumber": 3,
+      "bloodGroup": "B-",
+      "diagnosis": "Septic Shock Recovery",
+      "attendingDoctor": "Dr. Lisa Thompson",
+      "status": "Stable",
+      "currentVitals": {
+        "heartRate": 76,
+        "oxygenLevel": 97,
+        "systolicBP": 118,
+        "diastolicBP": 76,
+        "temperature": 98.6,
+        "respiratoryRate": 16,
+        "lastUpdated": "2026-10-30T07:17:24.485Z"
+      },
+      "emergencyContact": {
+        "name": "Wei Chang",
+        "phone": "555-0103",
+        "relation": "Son"
+      },
+      "allergies": [],
+      "medications": [
+        {
+          "name": "Vancomycin",
+          "dosage": "1g",
+          "frequency": "Every 12 hours"
+        }
+      ],
+      "notes": [
+        {
+          "text": "Responding to antibiotics. BP stabilizing.",
+          "author": "Dr. Lisa Thompson",
+          "timestamp": "2026-10-30T07:17:24.482Z"
+        }
+      ],
+      "admissionDate": "2026-10-30T07:17:24.485Z",
+      "dischargeDate": null,
+      "aiStatus": {
+        "riskLevel": "Low",
+        "stabilityScore": 100,
+        "prediction": "Patient vitals within acceptable range. Standard monitoring protocol active.",
+        "alerts": [],
+        "lastAnalysis": "2026-10-30T07:17:24.485Z"
+      },
+      "vitalHistory": [
+        {
+          "heartRate": 76,
+          "oxygenLevel": 97,
+          "systolicBP": 118,
+          "diastolicBP": 76,
+          "temperature": 98.6,
+          "respiratoryRate": 16,
+          "timestamp": "2026-10-30T07:17:24.485Z"
+        }
+      ],
+      "createdAt": "2026-10-30T07:17:24.485Z",
+      "updatedAt": "2026-10-30T07:17:24.485Z"
+    }
+  ],
+  "_meta": {
+    "total": 3,
+    "lastModified": "2026-10-30T07:17:24.485Z"
+  }
+}

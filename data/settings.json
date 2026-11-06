@@ -1,0 +1,1 @@
+{"settings":{"hospitalName":"City General Hospital","icuCapacity":4,"alertSoundEnabled":true,"vitalUpdateInterval":3,"csvSaveInterval":30,"criticalThresholds":{"heartRateLow":50,"heartRateHigh":130,"oxygenLow":90,"tempHigh":103,"tempLow":95},"timezone":"Asia/Kolkata","twoFactorEnabled":false,"sessionTimeoutMinutes":60},"_meta":{"lastModified":""}}

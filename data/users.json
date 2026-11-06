@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "usr_52168164-dba9-4fc7-816b-1cae56fe0d51",
+      "email": "admin@icu.med",
+      "password": "$2a$12$ZKNLIXtLLlRIUN.xaEO6wuXczLEKU804EUrPmayGM39njeTzfJBpG",
+      "name": "Dr. Admin User",
+      "role": "admin",
+      "department": "Administration",
+      "isActive": true,
+      "lastLogin": "2026-11-03T07:43:20.486Z",
+      "createdAt": "2026-10-30T07:17:23.842Z",
+      "updatedAt": "2026-11-03T07:43:20.486Z"
+    },
+    {
+      "id": "usr_a433ba7f-71a6-400e-8014-fff8e8f7a0c8",
+      "email": "doctor@icu.med",
+      "password": "$2a$12$U.uyvYm3I1Yj8pEtn/hRVeygnD0l1RBxZQHgTpqT/IpVqxazJ4.Hm",
+      "name": "Dr. Sarah Chen",
+      "role": "doctor",
+      "department": "ICU",
+      "isActive": true,
+      "lastLogin": null,
+      "createdAt": "2026-10-30T07:17:24.145Z",
+      "updatedAt": "2026-10-30T07:17:24.145Z"
+    },
+    {
+      "id": "usr_69af3665-cf4f-476d-97f8-6c680016f509",
+      "email": "nurse@icu.med",
+      "password": "$2a$12$dB/nvj7gS12ec.ASrIIe1OgGDDwEpXEWwyPnQkU0F.DXswfVaD.j6",
+      "name": "Nurse Emily Ross",
+      "role": "nurse",
+      "department": "ICU",
+      "isActive": true,
+      "lastLogin": null,
+      "createdAt": "2026-10-30T07:17:24.481Z",
+      "updatedAt": "2026-10-30T07:17:24.481Z"
+    }
+  ],
+  "_meta": {
+    "total": 3,
+    "lastModified": "2026-11-03T07:43:20.486Z"
+  }
+}

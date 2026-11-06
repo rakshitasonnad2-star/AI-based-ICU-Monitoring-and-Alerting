@@ -1,0 +1,116 @@
+{
+  "alerts": [
+    {
+      "patientId": "pat_c265e577-7159-422d-a29c-c6e72974189e",
+      "patientName": "James Mitchell",
+      "bedNumber": 1,
+      "attendingDoctor": "Dr. Sarah Chen",
+      "riskLevel": "High",
+      "message": "Abnormal heart rate: 116 bpm • Low O2 saturation: 90.4%",
+      "type": "simulation",
+      "vitals": {
+        "heartRate": 116,
+        "oxygenLevel": 90.4,
+        "systolicBP": 158,
+        "diastolicBP": 95,
+        "temperature": 101.1,
+        "respiratoryRate": 22
+      },
+      "id": "alt_1793344808925_873",
+      "status": "resolved",
+      "acknowledged": true,
+      "acknowledgedBy": "Dr. Admin User",
+      "acknowledgedAt": "2026-10-30T07:21:22.178Z",
+      "resolvedBy": "Dr. Admin User",
+      "resolvedAt": "2026-10-30T07:21:32.260Z",
+      "smsCount": 1,
+      "lastSmsAt": "2026-10-30T07:20:10.057Z",
+      "timestamp": "2026-10-30T07:20:08.925Z"
+    },
+    {
+      "patientId": "pat_c265e577-7159-422d-a29c-c6e72974189e",
+      "patientName": "James Mitchell",
+      "bedNumber": 1,
+      "attendingDoctor": "Dr. Sarah Chen",
+      "riskLevel": "High",
+      "message": "Abnormal heart rate: 116 bpm • Low O2 saturation: 91.5%",
+      "type": "simulation",
+      "vitals": {
+        "heartRate": 116,
+        "oxygenLevel": 91.5,
+        "systolicBP": 151,
+        "diastolicBP": 93,
+        "temperature": 101.2,
+        "respiratoryRate": 22
+      },
+      "id": "alt_1793344832990_642",
+      "status": "resolved",
+      "acknowledged": true,
+      "acknowledgedBy": "Dr. Admin User",
+      "acknowledgedAt": "2026-10-30T07:21:17.915Z",
+      "resolvedBy": "Dr. Admin User",
+      "resolvedAt": "2026-10-30T07:21:32.260Z",
+      "smsCount": 1,
+      "lastSmsAt": "2026-10-30T07:21:25.720Z",
+      "timestamp": "2026-10-30T07:20:32.990Z"
+    },
+    {
+      "patientId": "pat_c265e577-7159-422d-a29c-c6e72974189e",
+      "patientName": "James Mitchell",
+      "bedNumber": 1,
+      "attendingDoctor": "Dr. Sarah Chen",
+      "riskLevel": "High",
+      "message": "Abnormal heart rate: 116 bpm • Low O2 saturation: 91.5%",
+      "type": "simulation",
+      "vitals": {
+        "heartRate": 116,
+        "oxygenLevel": 91.5,
+        "systolicBP": 159,
+        "diastolicBP": 94,
+        "temperature": 101.1,
+        "respiratoryRate": 21
+      },
+      "id": "alt_1793344911181_694",
+      "status": "acknowledged",
+      "acknowledged": true,
+      "acknowledgedBy": "Dr. Admin User",
+      "acknowledgedAt": "2026-10-30T07:22:03.827Z",
+      "resolvedBy": null,
+      "resolvedAt": null,
+      "smsCount": 1,
+      "lastSmsAt": "2026-10-30T07:22:25.717Z",
+      "timestamp": "2026-10-30T07:21:51.181Z"
+    },
+    {
+      "patientId": "pat_c265e577-7159-422d-a29c-c6e72974189e",
+      "patientName": "James Mitchell",
+      "bedNumber": 1,
+      "attendingDoctor": "Dr. Sarah Chen",
+      "riskLevel": "High",
+      "message": "Abnormal heart rate: 116 bpm • Low O2 saturation: 90.8%",
+      "type": "simulation",
+      "vitals": {
+        "heartRate": 116,
+        "oxygenLevel": 90.8,
+        "systolicBP": 151,
+        "diastolicBP": 97,
+        "temperature": 101.3,
+        "respiratoryRate": 23
+      },
+      "id": "alt_1793344953284_859",
+      "status": "active",
+      "acknowledged": false,
+      "acknowledgedBy": null,
+      "acknowledgedAt": null,
+      "resolvedBy": null,
+      "resolvedAt": null,
+      "smsCount": 56,
+      "lastSmsAt": "2026-11-03T07:47:43.228Z",
+      "timestamp": "2026-10-30T07:22:33.284Z"
+    }
+  ],
+  "_meta": {
+    "total": 4,
+    "lastModified": "2026-11-03T07:47:46.216Z"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "activity": [
+    {
+      "userId": "usr_52168164-dba9-4fc7-816b-1cae56fe0d51",
+      "userName": "Dr. Admin User",
+      "email": "admin@icu.med",
+      "action": "login",
+      "ip": "::1",
+      "success": true,
+      "id": "act_1793344715086_936",
+      "timestamp": "2026-10-30T07:18:35.086Z"
+    },
+    {
+      "userId": "usr_52168164-dba9-4fc7-816b-1cae56fe0d51",
+      "userName": "Dr. Admin User",
+      "email": "admin@icu.med",
+      "action": "login",
+      "ip": "::1",
+      "success": true,
+      "id": "act_1793507924429_687",
+      "timestamp": "2026-11-01T04:38:44.429Z"
+    },
+    {
+      "userId": "usr_52168164-dba9-4fc7-816b-1cae56fe0d51",
+      "userName": "Dr. Admin User",
+      "email": "admin@icu.med",
+      "action": "login",
+      "ip": "::1",
+      "success": true,
+      "id": "act_1793510891913_974",
+      "timestamp": "2026-11-01T05:28:11.913Z"
+    },
+    {
+      "userId": "usr_52168164-dba9-4fc7-816b-1cae56fe0d51",
+      "userName": "Dr. Admin User",
+      "email": "admin@icu.med",
+      "action": "login",
+      "ip": "::1",
+      "success": true,
+      "id": "act_1793691800489_624",
+      "timestamp": "2026-11-03T07:43:20.489Z"
+    }
+  ],
+  "_meta": {
+    "total": 4,
+    "lastModified": "2026-11-03T07:43:20.489Z"
+  }
+}

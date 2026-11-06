@@ -1,0 +1,9 @@
+{
+  "staff": [
+    { "name": "Dr. Sarah Chen",    "role": "doctor", "phone": "+917348826027", "beds": [] },
+    { "name": "Dr. James Park",    "role": "doctor", "phone": "+91998001622", "beds": [] },
+    { "name": "Dr. Lisa Thompson", "role": "doctor", "phone": "+917975658562", "beds": [] },
+    { "name": "Nurse Emily Ross",  "role": "nurse",  "phone": "+917348826027", "beds": [1, 2] },
+    { "name": "Nurse Second",      "role": "nurse",  "phone": "+91998001622", "beds": [3, 4] }
+  ]
+}
