@@ -229,3 +229,18 @@ findPort(PORT).then(async (availablePort) => {
     }
   });
 });
+const apps = express();
+
+// 1. your middleware and API routes first
+app.use(express.json());
+app.use("/api/...", yourRoutes);
+
+// 2. ADD THE NEW CODE HERE
+const path = require("path");
+app.use(express.static(path.join(__dirname, "client/dist")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client/dist/index.html"));
+});
+
+// 3. app.listen stays last
+app.listen(process.env.PORT || 3000);
